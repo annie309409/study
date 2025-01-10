@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+</head>
+<body>
+    <div class="sc-eGRUor gdnhbG atom-one"><h2 id="-prettier란">⭐ Prettier란?</h2>
+        <hr>
+        <p><code>Prettier</code>란 내가 작성한 코드를 보기 좋게, 또 일관성 있게 포맷팅을 해주는 도구다. 줄바꿈이나 들여쓰기 간격, 세미콜론을 사용할 것인지, 큰따옴표를 쓸 것인지 혹은 작은 따옴표를 쓸 것인지를 설정해서 내가 파일을 저장할 때마다 형식에 맞게 보기 좋게 정렬을 해준다.</p>
+        <p>예시를 보여주자면</p>
+        <p><img src="https://velog.velcdn.com/images/gangk_99/post/206611b5-272c-4636-b712-110922725703/image.png"></p>
+        <p>이렇게 들여쓰기도 엉망으로 되어 있고 세미콜론도 없는(자바스크립트에서는 필수가 아니긴 하지만) 이 파일을 저장하는 순간!</p>
+        <p><img src="https://velog.velcdn.com/images/gangk_99/post/4af4f1dd-76cc-4221-b22f-2b62c8917e36/image.png"></p>
+        <p>이런 식으로 알아서 내가 원하는 포맷팅 형식에 맞게 정리한 후 저장을 해주는 거다. 편리하고, 가독성도 좋아지기 때문에 많은 사람들이 이 도구를 사용한다.</p>
+        <h3 id="️-prettier-설정하기">❤️ Prettier 설정하기</h3>
+        <hr>
+        <p>이제 차근히 Prettier 옵션을 내가 원하는 대로 설정해보자.</p>
+        <p><strong>1. VS code의 Extension에서 Prettier 설치</strong></p>
+        <p><img src="https://velog.velcdn.com/images/gangk_99/post/d0eb2fe0-26e3-4657-9564-c57b990d04f6/image.png"></p>
+        <p>VS Code의 Extension에서 먼저 Prettier 확장 프로그램을 설치해준다. 여러 개가 나올 텐데 가장 위에 있는, 즉 사진과 같은 익스텐션을 설치해주자.</p>
+        <p><strong>2. Setting 설정</strong></p>
+        <p>먼저 <code>Ctrl</code> + <code>,</code>를 동시에 눌러 vscode의 설정에 들어가준다.</p>
+        <p><img src="https://velog.velcdn.com/images/gangk_99/post/0e30b121-6151-4dda-a958-1d1aeb4dd078/image.png"></p>
+        <p><code>Editor: Default Formatter</code>을 검색란에 입력 후 해당 설정을 <code>Prettier</code>로 설정해준다.</p>
+        <p><img src="https://velog.velcdn.com/images/gangk_99/post/f965834c-2af0-478b-b159-c392e0496543/image.png"></p>
+        <p>그 다음 <code>Editor: Format on save mode</code>를 검색 후 체크해준다. (파일을 저장할 때마다 자동으로 prettier 실행하도록)</p>
+        <p><img src="https://velog.velcdn.com/images/gangk_99/post/ca806a62-0238-448f-866b-dcf71fd6bda9/image.png"></p>
+        <p>마지막으로 <code>Prettier</code>를 검색 후 원하는대로 설정해주면 된다. 각 옵션이 어떤 걸 의미하는지는 뒷부분에서 설명할 예정이다.</p>
+        <p>만약 모든 프로젝트에 동일한 Prettier를 설정할 예정이라면 위와 같이 설정하고 끝내도 무관하다. 하지만 각기 다른 프로젝트에 다른 포맷팅을 적용하고 싶을 때가 있다. 또한 협업을 진행하게 된다면 팀 컨벤션에 맞추어 Prettier 설정이 달라지기도 한다. 보통 이럴 때는 <code>.prettierrc</code>라는 설정 파일을 생성하여 해당 파일에 원하는 포맷팅 형식을 저장한다. 이후에 다룰 내용이 바로 이 파일을 생성하고 원하는 옵션을 적용해보는 것이다.</p>       
+</body>
+</html>
